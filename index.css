@@ -1,0 +1,133 @@
+.jumbo-style{
+	height: 700px;
+}
+#Home{
+	 background: linear-gradient(to top, #ffff00 0%, #ff0066 100%);;
+	 color: #fff;
+}
+
+#Services,#Clients,#About,#Contact{
+	color: #fff;
+}
+.mail> a:hover{
+	color: #ff0066;
+	text-decoration: none;
+}
+
+.jumbo-style > h1{
+	color: #FFFFFF;
+}
+.jumbo-header-margin{
+	margin-top: 150px;
+}
+.jumbo-line{
+	width: 60%;
+	border: 2px solid #ffffff;
+	display: inline-block;
+	position: center;
+	margin: auto;
+	padding: auto;
+}
+.services-list li{
+	padding-left:10px;
+	padding-bottom: 10px;
+	list-style: none;
+	font-size: 18px;
+}
+.i-padding{
+	padding-right: 10px;
+}
+.section-margin{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px auto;
+}
+.img-border{
+	border: 1px solid white;
+	border-radius: 25px;	
+	display:block;
+}
+
+.img-holder{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+.img-holder > img{
+	height: 300px;
+	margin: auto;
+	padding: auto;
+	display:block;
+}
+
+.footer-bg{
+	background: white;
+	padding: 35px;
+	color:#ff0066;
+}
+body{
+	background: linear-gradient(to top left, #ffff00 -5%, #ff3300 100%);
+	color: #e6e6e6 ;
+}
+.navbar{
+	padding: 10px;
+	background: #fff;
+	border: none;
+}
+.navbar .navbar-nav > li > a{
+	color: #FF9900;
+}
+.navbar .navbar-nav > li > a:hover{
+    color: orange;
+    background: #ff0066;
+}
+.navbar .navbar-nav > .active  {
+    color: orange;
+    background: #ff0066;
+}
+.navbar .navbar-toggle {
+    border-color: #FF9900;
+	background: #FF9900;
+}
+.navbar .navbar-brand {
+    color: #FF9900;
+}
+
+.fa-facebook-official{
+  color: orange;
+}
+.fa-envelope{
+  color: orange;
+}
+#fa-awesome{
+    font-size: 30px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover{
+	color: #ff0066;
+}
+
+dl > dt ,dd{
+	font-size: 15px;
+	color: #fff;
+}
+
+.link-style{
+	
+}
+.parallax {
+    /* The image used */
+    background-image: url("./Images/cleaning.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
