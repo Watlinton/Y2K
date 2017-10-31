@@ -87,7 +87,9 @@ body{
 }
 .navbar .navbar-toggle {
     border-color: #FF9900;
-	background: #FF9900;
+}
+.navbar .navbar-toggle .icon-bar {
+    background: #FF9900;
 }
 .navbar .navbar-brand {
     color: #FF9900;
@@ -134,4 +136,13 @@ dl > dt ,dd{
 .current{
 	color: orange;
 	background: #ff0066;
+}
+.carousel > .carousel-inner > .item > img{
+	height: 300px;
+	margin: auto;
+	padding: auto;
+	display:block;
+}
+#myCarousel{
+	margin: 10px;
 }
